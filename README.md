@@ -93,57 +93,42 @@ docker ps
 <img width="820" height="829" alt="imagen" src="https://github.com/user-attachments/assets/9ca3aab0-87d5-46bd-a418-1893d981da86" />
 
 
+**Iniciar sessión con credenciales**
+
 <img width="852" height="804" alt="logon n8n con datos" src="https://github.com/user-attachments/assets/6482e24a-85a7-4178-b57d-2a2737a17a6f" />
 
+### PASO 7: Agregar nueva configuracion de Credenciales  
 
+<img width="255" height="296" alt="Captura de pantalla 2025-09-26 084326" src="https://github.com/user-attachments/assets/4550b781-38f3-4d24-a2e7-9deb4807aae8" />
 
-### PASO 8: Informacion adicional del Servidor N8N
+### PASO 8: Seleccionar base de datos postgreSQL  
 
+<img width="561" height="328" alt="Captura de pantalla 2025-09-26 083602" src="https://github.com/user-attachments/assets/68723d70-5a8f-44c6-a186-6c311207adb7" />
 
-### PASO 9: Seccion de Gestor de Base de datos en N8N
-
-
-**Salida Esperada**
-
-<img width="676" height="276" alt="image-3" src="https://github.com/user-attachments/assets/2b2b42aa-f59c-4b24-9d16-bc466b74d5d6" />
-
-### PASO 10: Configuracion de Credenciales 
-
- Parametros obtenidos del archivos .env del repositorio
+**Parametros obtenidos del archivos .env del repositorio**
 
 ```bash
     Host: postgres-db
-    Database: postgres
+    Database: n8n
     User: n8nuser
     Password: Super_Segura123!
 ```
 **Salida Esperada**
 
-<img width="1372" height="733" alt="image-4" src="https://github.com/user-attachments/assets/6c3987d2-5bf6-41fe-9ccf-ea62ee83e85a" />
+<img width="1257" height="690" alt="Captura de pantalla 2025-09-26 083750" src="https://github.com/user-attachments/assets/50341d33-1ec6-41c1-8d63-27210dadc005" />
 
-### PASO 11: Verificar Ingresos.
-    
-   Se verifica  que la conexion sea Exitosa 
+### PASO 9: Verificar ingresos, conexion sea Exitosa
 
 **Salida Esperada**
 
-<img width="1331" height="725" alt="image-5" src="https://github.com/user-attachments/assets/1ac4dae2-c47e-4bd6-aa27-381509841bcd" />
+<img width="1305" height="731" alt="Captura de pantalla 2025-09-26 083814" src="https://github.com/user-attachments/assets/beb69c26-1b04-4971-ba58-877a13624827" />
 
-### PASO 12:  Verifcacion de N8N con Postgres.
-
-   Se verifica que la conexion de la base de datos este vinculada con el contenedor N8N.
+### PASO 10:  N8N con Postgres. Conexionn de la base de datos con el contenedor N8N.
 
 **Salida Esperada**
 
-<img width="1600" height="318" alt="image-6" src="https://github.com/user-attachments/assets/e812f85a-b49c-490b-b8bd-e53ed013a213" />
-
+<img width="1307" height="493" alt="Captura de pantalla 2025-09-26 085635" src="https://github.com/user-attachments/assets/c2d21f3d-3dfe-4283-a4f1-38daee7a1645" />
 
 # 3. Conclusiones
 
-- Se 
-
-- Al ejecutar el análisis en cada push al repositorio, se identifica proactivamente vulnerabilidades en etapas tempranas del desarrollo, reduciendo riesgos de seguridad en producción.
-
-- Docker Scout proporciona visibilidad completa sobre las vulnerabilidades en todas las capas de la imagen, facilitando la identificación de dependencias problemáticas en la aplicación FastAPI.
-
-- GitHub Actions proporciona registros detallados de cada ejecución, creando un historial auditable de los estados de seguridad de la aplicación a lo largo del tiempo.
+- 
