@@ -92,18 +92,19 @@ docker ps
 
 <img width="820" height="829" alt="imagen" src="https://github.com/user-attachments/assets/9ca3aab0-87d5-46bd-a418-1893d981da86" />
 
-
-**Iniciar sessión con credenciales**
+### PASO 7: Información adicional del Servidor n8n  
 
 <img width="852" height="804" alt="logon n8n con datos" src="https://github.com/user-attachments/assets/6482e24a-85a7-4178-b57d-2a2737a17a6f" />
 
-### PASO 7: Agregar nueva configuracion de Credenciales  
+### PASO 8: Agregar nueva configuracion de Credenciales  
 
 <img width="255" height="296" alt="Captura de pantalla 2025-09-26 084326" src="https://github.com/user-attachments/assets/4550b781-38f3-4d24-a2e7-9deb4807aae8" />
 
-### PASO 8: Seleccionar base de datos postgreSQL  
+### PASO 9: Seleccionar base de datos postgreSQL  
 
 <img width="561" height="328" alt="Captura de pantalla 2025-09-26 083602" src="https://github.com/user-attachments/assets/68723d70-5a8f-44c6-a186-6c311207adb7" />
+
+### PASO 10: Configuración de credenciales
 
 **Parametros obtenidos del archivos .env del repositorio**
 
@@ -117,13 +118,13 @@ docker ps
 
 <img width="1257" height="690" alt="Captura de pantalla 2025-09-26 083750" src="https://github.com/user-attachments/assets/50341d33-1ec6-41c1-8d63-27210dadc005" />
 
-### PASO 9: Verificar ingresos, conexion sea exitosa
+### PASO 11: Verificar ingresos, conexion sea exitosa
 
 **Salida Esperada**
 
 <img width="1305" height="731" alt="Captura de pantalla 2025-09-26 083814" src="https://github.com/user-attachments/assets/beb69c26-1b04-4971-ba58-877a13624827" />
 
-### PASO 10:  N8N con Postgres. Conexion de la base de datos con el contenedor N8N.
+### PASO 12:  N8N con Postgres. Conexion de la base de datos con el contenedor N8N.
 
 **Salida Esperada**
 
@@ -131,4 +132,16 @@ docker ps
 
 # 3. Conclusiones
 
-- 
+- Se pudo configurar correctamente el despliegue de n8n.
+
+- Se pudo configurar el despliegue en docker de la base de datos postgres.
+
+- Se interactua entre los dos contenedores por medio de una network creada para el caso
+
+- Se realizan pruebas de conexión entre los contenedores al configurar el n8n con la base de datos postgres y esta ser exitosa.
+
+- Es necesario tener en cuenta los dockers activos ya que en el caso dió un error por que tenia un docker arriba con el puerto de la base postgress al que se le paró y se contnuó con el despliegue del contenedor de postgress.
+
+- Tener en cuenta las carpetas donde se encuentran trabajando para evitar errores al momento de ejecutar comandos.
+
+- Uso de credenciales seguras es necesario en ambientes de test y producción.
