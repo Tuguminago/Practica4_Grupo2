@@ -90,7 +90,12 @@ docker ps
 
 **Salida Esperada**
 
-<img width="1192" height="737" alt="image-1" src="https://github.com/user-attachments/assets/0e31d918-7da4-43ad-8f40-5f73810f2d4b" />
+<img width="820" height="829" alt="imagen" src="https://github.com/user-attachments/assets/9ca3aab0-87d5-46bd-a418-1893d981da86" />
+
+
+<img width="852" height="804" alt="logon n8n con datos" src="https://github.com/user-attachments/assets/6482e24a-85a7-4178-b57d-2a2737a17a6f" />
+
+
 
 ### PASO 8: Informacion adicional del Servidor N8N
 
