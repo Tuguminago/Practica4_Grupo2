@@ -1,11 +1,11 @@
 ## INTEGRANTES.
 | Nombre | Cargo | URL GitHub |
 |---|:---:|---:|
-| Daniel Alquinga | :technologist: Desarrollador |  |
-| Daniel Baldeon | :technologist: Desarrollador |  |
-| Bryan Miño | :technologist: Desarrollador |  |
-| Wilson Segovia | :technologist: Desarrollador |  |
-| Leonardo Tuguminago | :technologist: Desarrollador |  |
+| Daniel Alquinga | :technologist: Desarrollador | https://github.com/superdavi/Practica4_Grupo2 |
+| Daniel Baldeon | :technologist: Desarrollador | https://github.com/debpdhs/Practica4_Grupo2 |
+| Bryan Miño | :technologist: Desarrollador | https://github.com/bmiomi/tarea4-grupo2.git |
+| Wilson Segovia | :technologist: Desarrollador | https://github.com/segoviawilson/Practica4_Grupo2.git |
+| Leonardo Tuguminago | :technologist: Desarrollador | https://github.com/Tuguminago/Practica4_Grupo2.git |
 
 # 1. Despliegue de entorno de automatización con n8n integrados con PostgreSQL en Docker Compose
 
