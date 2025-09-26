@@ -15,21 +15,39 @@ El objetivo de este trabajo es desplegar una aplicacion con n8n esta esta integr
 
 ### PASO 1: 📂 Estructura de Archivos
 
-<img width="272" height="262" alt="image" src="https://github.com/user-attachments/assets/135d358c-39e4-4d08-b6e3-4adc96bd15a9" />
+<img width="284" height="142" alt="imagen" src="https://github.com/user-attachments/assets/64ae531d-3550-48d9-bd24-7bc7bbcd643d" />
+
 
 ### PASO 2: Creacion de la red de docker
 
 ```bash
 docker network create n8n-network
 ```
+
 **Salida Esperada**
 
-<img width="440" height="200" alt="image" src="https://github.com/user-attachments/assets/13bde87f-337b-4ea3-9b5d-e99bac57ea07" />
+<img width="944" height="69" alt="imagen" src="https://github.com/user-attachments/assets/14adffe6-c661-418a-98ce-913c6340d039" />
+
+**Listamos la red creada**
+
+```bash
+docker network ls
+```
+
+**Salida Esperada**
+
+<img width="819" height="154" alt="imagen" src="https://github.com/user-attachments/assets/c4d40790-df45-48dc-ac4a-b9b47662ffa4" />
 
 
 ### PASO 3: Despliegue de contenedor de n8n
 
-Nos ubicamos en la carpeta n8n y ejecutar el siguiente comando
+Nos ubicamos en la carpeta n8n
+
+```bash
+cd n8n/
+```
+
+Ejecutar el siguiente comando
 
 ```bash
 docker compose -f docker-compose-n8.yml up -d
@@ -37,7 +55,8 @@ docker compose -f docker-compose-n8.yml up -d
 
 **Salida Esperada**
 
-<img width="506" height="106" alt="image" src="https://github.com/user-attachments/assets/44ed4f45-9452-462c-8416-0937b9825567" />
+<img width="992" height="332" alt="imagen" src="https://github.com/user-attachments/assets/b18be456-437e-45a6-868c-8cb456610e4a" />
+
 
 ### PASO 4: Despliege de Contenedor Postgres
 
@@ -49,17 +68,18 @@ docker compose -f ../postgres/compose.postgres.yml  up -d
 
 **Salida Esperada**
 
-<img width="567" height="128" alt="image" src="https://github.com/user-attachments/assets/fda093fc-4b8b-42b3-ac2b-003cba799bb5" />
+<img width="1175" height="377" alt="imagen" src="https://github.com/user-attachments/assets/46b1e5b4-6f59-4ce9-88ee-268bb4050cff" />
+
 
 ### PASO 5: Revisamos contenedores levantados
 
 ```bash
-    docker ps
+docker ps
 ```
 
 **Salida Esperada**
 
-<img width="1379" height="100" alt="image" src="https://github.com/user-attachments/assets/3a6ae766-d570-4a3a-b15b-1372d1120fb8" />
+<img width="1195" height="110" alt="imagen" src="https://github.com/user-attachments/assets/60c20c83-fb69-47ae-b4de-7674bc3047ef" />
 
 
 ### PASO 6: Ingreso al portar del Servidor N8N 
