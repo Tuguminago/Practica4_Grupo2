@@ -117,13 +117,13 @@ docker ps
 
 <img width="1257" height="690" alt="Captura de pantalla 2025-09-26 083750" src="https://github.com/user-attachments/assets/50341d33-1ec6-41c1-8d63-27210dadc005" />
 
-### PASO 9: Verificar ingresos, conexion sea Exitosa
+### PASO 9: Verificar ingresos, conexion sea exitosa
 
 **Salida Esperada**
 
 <img width="1305" height="731" alt="Captura de pantalla 2025-09-26 083814" src="https://github.com/user-attachments/assets/beb69c26-1b04-4971-ba58-877a13624827" />
 
-### PASO 10:  N8N con Postgres. Conexionn de la base de datos con el contenedor N8N.
+### PASO 10:  N8N con Postgres. Conexion de la base de datos con el contenedor N8N.
 
 **Salida Esperada**
 
